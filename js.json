@@ -1,0 +1,10 @@
+methods: {
+    async register() {
+        if (!this.registerForm.name || !this.registerForm.email || !this.registerForm.password) {
+            alert('All fields are required');
+            return;
+        }
+        // Further validation logic can be added here
+        // Continue with axios post request...
+    },
+    // Same fo
